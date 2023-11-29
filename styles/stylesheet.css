@@ -1,0 +1,109 @@
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url(/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: OpenSans-LightItalic;
+	src: url(/fonts/OpenSans-LightItalic.ttf);
+}
+@font-face {
+	font-family: OpenSans-SemiboldItalic;
+	src: url(/fonts/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+	font-family: OpenSans-Light;
+	src: url(/fonts/OpenSans-Light.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	color: whitesmoke;
+	background-color: black;
+	padding: 8px;
+	font-size: 14px;
+	font-family: OpenSans-Light;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.header-content {
+	padding-left: 12px;
+}
+
+.header-content2 {
+	font-size: 12px;
+}
+
+.header-section1 {
+	color: #41ab33;
+	padding-left: 12px;
+}
+
+.header-Section2 {
+	color: black;
+	font-size: 13px;
+}
+
+.section-container {
+	font-family: OpenSans-Light;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #faf9e8;
+	color: white;
+	padding: 10px;
+}
+
+.section-img {
+	padding-right: 4px;
+	width: 12px;
+}
+
+.section2 {
+	height: 600px;
+	background-image: url(/Images/hero-tall-002.jpg);
+}
+
+.section-container2 {
+	position: relative;
+	display: inline-block;
+	padding: 16px;
+}
+.improvingResults {
+	font-family: OpenSans-Regular;
+	color: white;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	color: white;
+	font-size: 26px;
+	padding: 10px 20px;
+}
+.ourGoals {
+	color: white;
+	position: absolute;
+	top: 240px;
+	left: 0px;
+	color: white;
+	font-size: 24px;
+	padding: 10px 20px;
+}
+
+.loadingImg {
+	width: 20px;
+}
