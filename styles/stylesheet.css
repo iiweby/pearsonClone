@@ -51,12 +51,13 @@ header {
 
 .header-section1 {
 	color: #41ab33;
+	font-size: 20px;
 	padding-left: 12px;
 }
 
 .header-Section2 {
 	color: black;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .section-container {
@@ -76,6 +77,8 @@ header {
 
 .section2 {
 	height: 600px;
+	position: relative;
+	background-size: cover;
 	background-image: url(/Images/hero-tall-002.jpg);
 }
 
@@ -95,15 +98,100 @@ header {
 	padding: 10px 20px;
 }
 .ourGoals {
+	display: flex;
 	color: white;
 	position: absolute;
-	top: 240px;
+	top: 260px;
 	left: 0px;
 	color: white;
-	font-size: 24px;
+	font-size: 16px;
 	padding: 10px 20px;
 }
 
+.imageWrapper {
+	display: flex;
+	align-items: center;
+}
+
 .loadingImg {
-	width: 20px;
+	width: 40px;
+	height: 40px;
+}
+
+.textWrapper {
+	flex: 1;
+}
+
+.vertical-line {
+	width: 2px;
+	height: 90px;
+	background-color: grey;
+	margin: 0 10px;
+}
+
+#learnMore {
+	font-weight: bold;
+	color: #41ab33;
+}
+
+.container3 {
+	top: 390px;
+	left: 20px;
+	width: 420px;
+	height: 150px;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box1 {
+	width: 200px;
+	height: 180px;
+	background-color: #125834;
+}
+.box2 {
+	width: 200px;
+	height: 180px;
+	background-color: #348b65;
+}
+
+.boxxedText {
+	font-family: OpenSans-Regular;
+	color: white;
+	padding: 18px;
+}
+
+.spnned {
+	color: gray;
+}
+
+.textWrapper2 {
+	margin-top: 8px;
+}
+
+.signInContainer {
+	color: white;
+}
+
+.signInContainer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 400px; /* Adjust the width of the sign-in container */
+	height: 100%; /* Make it cover the entire section's height */
+	background-color: rgba(169, 169, 169, 0.6); /* Grey with reduced opacity */
+	padding: 20px; /* Add padding for content inside */
+	box-sizing: border-box; /* Include padding in the width and height */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.signInContainer p {
+	color: white; /* Change the text color as needed */
+	font-family: "Open Sans", sans-serif; /* Set font family */
+	font-size: 16px; /* Adjust font size */
+	text-align: center; /* Center the text */
+	margin: 0; /* Remove default margin */
 }
