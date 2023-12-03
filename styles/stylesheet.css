@@ -191,6 +191,7 @@ header {
 	text-align: left;
 	margin-bottom: 24px;
 	width: 100%;
+	align-items: center;
 }
 
 .textContent h2 {
@@ -268,4 +269,59 @@ input[type="password"] {
 	margin-right: 4px;
 	width: 25px;
 	height: 25px;
+	height: auto;
+}
+
+.content-container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.text-container {
+	flex: 1;
+	padding: 20px;
+}
+
+.image-container {
+	flex: 1;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block; /* Ensure image fits container width */
+}
+
+.image-text {
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+}
+
+.play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px; /* Adjust size as needed */
+	height: 80px; /* Adjust size as needed */
+	background-color: rgba(128, 128, 128, 0.7); /* Grey color with opacity */
+	border-radius: 50%;
+}
+
+.play-button::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 0 15px 25px;
+	border-color: transparent transparent transparent rgba(226, 226, 226, 0.9); /* White triangle for play icon */
 }
